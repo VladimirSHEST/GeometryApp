@@ -1,27 +1,27 @@
-package org.example.app;
+упаковка org.example.app;
 
 
-import com.example.utils.GeometryUtils;
-import org.example.geometry.Circle;
-import org.example.geometry.Rectangle;
-import org.example.geometry.Triangle;
+импорт com.example.utils.GeometryUtils;
+импорт org.example.geometry.Circle;
+импорт org.example.geometry.Rectangle;
+импорт org.example.geometry.Triangle;
 
-public class Main {
-    public static void main(String[] args) {
-        Circle circle = new Circle(5);
-        System.out.println("Circle Area: " + circle.getArea());
-        System.out.println("Circle Perimeter: " + circle.getPerimeter());
+публичный класс Главная {
+    публичный статический пустота Главная(String[] аргументы) {
+        Круг circle = новое Круг(5);
+        System.out.println("Circle Area: " + круг.облАсть получения());
+        System.out.println("Circle Perimeter: " + круг.Гетпериметр());
 
-        Rectangle rectangle = new Rectangle(4, 6);
-        System.out.println("Rectangle Area: " + rectangle.getArea());
-        System.out.println("Rectangle Perimeter: " + rectangle.getPerimeter());
+        Прямоугольник rectangle = новое Прямоугольник(4, 6);
+        System.out.println("Rectangle Area: " + прямоугольник.облАсть получения());
+        System.out.println("Rectangle Perimeter: " + прямоугольник.Гетпериметр());
 
-        Triangle triangle = new Triangle(3, 4, 5);
-        System.out.println("Triangle Area: " + triangle.getArea());
-        System.out.println("Triangle Perimeter: " + triangle.getPerimeter());
+        Треугольник triangle = новое Треугольник(3, 4, 6);
+        System.out.println("Triangle Area: " + треугольник.облАсть получения());
+        System.out.println("Triangle Perimeter: " + треугольник.Гетпериметр());
 
-        double lengthInCm = 100;
-        double lengthInMeters = GeometryUtils.convertToMeters(lengthInCm, "cm");
+        двойной lengthInCm = 100;
+        двойной lengthInMeters = GeometryUtils.Конвертометры(lengthInCm, "cm");
         System.out.println("Length in meters: " + lengthInMeters);
     }
 }
