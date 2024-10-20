@@ -16,7 +16,7 @@ public class Main {
         System.out.println("Rectangle Area: " + rectangle.getArea());
         System.out.println("Rectangle Perimeter: " + rectangle.getPerimeter());
 
-        Triangle triangle = new Triangle(3, 4, 11);
+        Triangle triangle = new Triangle(3, 4, 20);
         System.out.println("Triangle Area: " + triangle.getArea());
         System.out.println("Triangle Perimeter: " + triangle.getPerimeter());
 
